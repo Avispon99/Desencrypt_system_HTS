@@ -39,7 +39,7 @@ while 1:
 			for i in range(127): 
 				if chr(i) == character:   # 'chr' convierte un numero entero en su caracter ASCII correspondiente.
 					print('\nNormal: ',i,character)
-					print('Encrypt: ',i-count,chr(i-count),'\n')
+					print('Desencrypt: ',i-count,chr(i-count),'\n')
 					list_add.append(chr(i-count))
 					count+=1
 
